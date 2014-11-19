@@ -54,7 +54,7 @@ table td, table th { vertical-align:top; padding: 3px 10px 3px 0; }
 body.explorer.passport, body.explorer.passport .fake-bg { background-color: #fdfdfd; background: #fdfdfd url(http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/backgrounds/bubbles-bk3.png) repeat top center; background-size: 150%; }
 /* Elements */
 #viewerguide img { float: left; padding: 5px 20px 10px 0; width: 40%; }
-.promo-container .promo .read-more, .promo-container.vertical .promo .read-more{ margin-left: 50%; position: relative; right: inherit; bottom: inherit; text-align: left; /* more */ text-transform:uppercase; font-size: .9em; font-weight: bold;}
+.promo-container .promo .read-more, .promo-container.vertical .promo .read-more{ position: relative; right: inherit; bottom: inherit; text-align: right; /* more */ text-transform:uppercase; font-size: .9em; font-weight: bold;}
 .promo-container .promo .read-more a, .read-more a { color: #541357;   font-weight: bold; font-size:1em;}
 .container .right-rail .box h2 { font-size: 19px; font-weight: 400; color: #fff; margin: -15px -15px 10px -15px; padding: 15px; background: #444; }
 .container .right-rail .box h2 a { color: #fff; text-decoration:none;  }
