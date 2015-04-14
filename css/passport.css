@@ -226,9 +226,9 @@ border-top: 0;
 /* blog */
 
 .cms-blogger .blog-header #blog-tagline {
- color:#eee;
-  position: absolute;
-  bottom: 10px;
+ color:#eee !important;
+  position: absolute !important;
+  bottom: 10px !important;
 }
-.cms-blogger .blog-header #blog-tagline * { color:#eee;}
+.cms-blogger .blog-header #blog-tagline * { color:#eee !important; }
 .cms-blogger .blog-header #blog-banding-image { min-height:80px;}
