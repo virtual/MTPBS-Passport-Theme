@@ -1,0 +1,10 @@
+.img-credit strong, .img-caption strong{float:left; display:block;  color:#585858}
+.captionp{float:left; display:block; }
+
+.filer_image_container { background: #fff; padding: 20px 0;}
+.filer_image_container img { clear:both;float:left; border:1px solid #999; padding:3px;margin:0 20px; width: 50% !important; float:left;}
+.img-details .img-caption { color: #000;  }
+.img-details .img-credit, .img-details .img-caption,.img-details .img-caption + .img-credit{border-top:1px solid #ccc; float:left; padding:2px 20px 15px 0; margin:3px 0 0 0; letter-spacing: 0; width: 30%;}
+
+
+.filer_image_container{*zoom:1}.filer_image_container:before,.filer_image_container:after{display:table;line-height:0;content:""}.filer_image_container:after{clear:both} 
