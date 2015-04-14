@@ -1,3 +1,11 @@
+/* --------------------------------------------------------
+Template: passport custom
+
+last modified: 2015/04/15
+author: Jeanine Schoessler
+email: jeanine@montana.edu
+website: http://www.montanapbs.org
+----------------------------------------------------------*/
 @charset "utf-8";
 @import "http://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:400,700";
 /* CSS Document */
@@ -204,9 +212,9 @@ border-top: 0;
 @media (min-width: 960px) {
 .explorer.passport .extra-header .header-logos { margin: 4px 0; }
 }
-/* Hide while we still use TV API 1 */
+/* Hide while we still use TV API 1 
 .scheduleControls, #scheduleV, #schedListView { display:none;}
-
+*/
 
 ::selection {
   background: #635262;color:#fff;  /* WebKit/Blink Browsers */
@@ -214,3 +222,13 @@ border-top: 0;
 ::-moz-selection {
   background: #635262; color:#fff; /* Gecko Browsers */
 } 
+
+/* blog */
+
+.cms-blogger .blog-header #blog-tagline {
+ color:#eee;
+  position: absolute;
+  bottom: 10px;
+}
+.cms-blogger .blog-header #blog-tagline * { color:#eee;}
+.cms-blogger .blog-header #blog-banding-image { min-height:80px;}
