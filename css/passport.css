@@ -75,10 +75,10 @@ body.explorer.passport, body.explorer.passport .fake-bg { background-color: #fdf
 .pbs_tvschedules_modules-whatson-module_day { border-right: 1px solid #333 !important; }
 .pbs_tvschedules_modules-whatson-module_header { font-weight: bold !important; padding: 0 !important; text-transform: capitalize !important; }
 /*.pbs_tvschedules_modules-whatson-timeblock_tabs */
-.pbs_tvschedules_modules-whatson-timeblock_tab_on { background-color: #5cc5e3 !important; background: #5cc5e3 !important; color: #fff !important; text-align: center !important; font-weight: bold; }
+.pbs_tvschedules_modules-whatson-timeblock_tab_on { background-color: #541357 !important; background: #541357 !important; color: #fff !important; text-align: center !important; font-weight: bold; }
 .pbs_tvschedules_modules-whatson-footer_links { border-top: 0 !important; }
 .pbs_tvschedules_modules-whatson-feed_id_open, .pbs_tvschedules_modules-whatson-feed_program_time, .pbs_tvschedules_modules-whatson-feed_program_title, .pbs_tvschedules_modules-whatson-feed_program_episode { font-size: 12px !important; }
-.pbs_tvschedules_modules-whatson-feed_programs { background-color: #edf6fb !important; }
+.pbs_tvschedules_modules-whatson-feed_programs { background-color: #f3ecf3 !important; }
 .pbs_tvschedules_modules-whatson-footer_links a:link, .pbs_tvschedules_modules-whatson-footer_links a:visited, .pbs_tvschedules_modules-whatson-footer_links a:active,.pbs_tvschedules_modules-whatson-footer_links a,.pbs_tvschedules_modules-whatson-footer_links a:hover { font-size: 10px;}
 /* CUSTOM SITE THEME */
 .explorer.passport header div.main-menu .navbar li.divider-vertical {  /*   margin-right: -7px;   */}
@@ -232,3 +232,9 @@ border-top: 0;
 }
 .cms-blogger .blog-header #blog-tagline * { color:#eee !important; }
 .cms-blogger .blog-header #blog-banding-image { min-height:80px;}
+
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover { background-color:inherit; background-image:none;}
+.explorer.passport header div.main-menu .navbar li .dropdown-menu li.active a {
+  color: #eee;
+  border-top: 0;
+}
