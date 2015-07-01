@@ -1,0 +1,28 @@
+{% comment %}
+<!-- SmartSnippets Variables
+topic=MerlinField
+details_link_text=TextField
+details_link_visible=Select|values=Yes,No
+-->
+{% endcomment %}
+<!-- START Topic Option List 01 -->
+<div class="row-fluid">
+    <div class="span12 box promo-container promo1 with-image clearfix">
+        <div class="span12 promo clearfix">
+            <a href="{{ topic.url }}" class="pull-left promo-link" style='margin-right:10px; width:273px; height:150px; display:inline-block'><img class="left" src="{{ topic.image }}" alt="{{ topic.title }}" width="273" height="150" style="width:273px; height:150px;" /></a>
+            <h2><a href="{{ topic.url }}">{{ topic.title|truncatechars:80 }}</a></h2>
+            {% if "Yes" in details_promo_date_visible %}
+                <div class="promo-date">
+                           <p>{{ details_promo_date }}</p>
+                </div>
+            {% endif %}
+            <p>{{ topic.short_description|truncatechars:250 }}</p>
+            {% if "Yes" in details_link_visible %}
+                <div class="read-more pull-right">
+                           <a href="{{ topic.url }}">{{ details_link_text|truncatechars:16 }} <i class="icon-angle-right"></i></a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<!-- END Topic Option List 01 -->
