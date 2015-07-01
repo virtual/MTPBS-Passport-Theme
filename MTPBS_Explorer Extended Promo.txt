@@ -2,7 +2,9 @@
 <!-- SmartSnippets Variables
 topic=MerlinField
 details_link_text=TextField
+details_promo_date=TextField
 details_link_visible=Select|values=Yes,No
+details_promo_date_visible=Select|values=Yes,No
 -->
 {% endcomment %}
 <!-- START Topic Option List 01 -->
@@ -19,7 +21,7 @@ details_link_visible=Select|values=Yes,No
             <p>{{ topic.short_description|truncatechars:250 }}</p>
             {% if "Yes" in details_link_visible %}
                 <div class="read-more pull-right">
-                           <a href="{{ topic.url }}">{{ details_link_text|truncatechars:16 }} <i class="icon-angle-right"></i></a>
+                           <a href="{{ topic.url }}">{{ details_link_text|truncatechars:16 }} <i class="icon-angle-right"></i></a>
                 </div>
             {% endif %}
         </div>
