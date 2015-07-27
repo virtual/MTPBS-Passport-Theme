@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
 Template: passport custom
 
-last modified: 2015/04/15
+last modified: 2015/07/27 1:21pm
 author: Jeanine Schoessler
 email: jeanine@montana.edu
 website: http://www.montanapbs.org
@@ -237,4 +237,45 @@ border-top: 0;
 .explorer.passport header div.main-menu .navbar li .dropdown-menu li.active a {
   color: #eee;
   border-top: 0;
+}
+
+
+/* Whats On */
+.scheduleControls { display:none;}
+#schedListView .scheduleItem .verticalHours, .whatson #schedListView .scheduleItem .verticalProgram { background-color: transparent; color: #000; font-weight: normal; }
+#schedListView .scheduleItem { background: #F3ECF3; margin-bottom: 3px; }
+.whatson #schedListView .scheduleItem .verticalHours { text-align: right; padding: 10px 8px 5px 10px; width:25%; font-size:12px;  color:#541357;}
+.whatson #schedListView .scheduleItem .verticalProgram { border-bottom: 0; padding: 3px 5px 5px 0; width:75%; }
+#schedListView .scheduleItem .showDetailsButton, #schedListView .scheduleItem .hideDetailsButton, .explorer.passport #schedules-container a { color: #541357; }
+.explorer.passport #schedules-container a { text-decoration: underline; }
+#schedules-container.whatson .tvssFooter { font-size: 16px; padding: 5px; }
+.ovDescription, .details { color: #444; }
+#schedListView .scheduleItem .verticalProgram .schedulesDarkButton > div, #schedListView .scheduleItem .verticalProgram .schedulesDarkButton.moreAirdates { padding: 5px 10px 2px 10px;      background-color: #444 !important; margin-top:5px; }
+div#currentDate { background-color: #541357 !important; background: #541357 !important; color: #fff !important; text-align: center !important; font-weight: bold; font-size: 14px !important; text-transform: uppercase !important; border-bottom: 0 !important; padding: 5px !important; margin: 0 0 3px 0 !important; }
+#schedListView .scheduleItem .verticalProgram .schedulesDarkButton {
+    position: static;
+    margin-top: 0;
+    margin-right: 0;
+    float: left;
+    height: auto;
+    background-color: transparent !important;
+    padding: 0;
+}
+.schedulesDarkButton .arrowLeft {
+    background: url("../img/schedSprite.png") no-repeat;
+    background-size: 120px 19px;
+    background-position: -65px 0px;
+    width: 7px;
+    height: 19px;
+    float: left;
+    margin-right: 10px;
+}
+.whatson #schedListView #stationProviderTime { display:none;}
+#schedListView .scheduleItem .verticalProgram #smallAirdatesContainer .ovAirdatesRow .ovColumnDate, #schedListView .scheduleItem .verticalProgram #smallAirdatesContainer .ovAirdatesRow .ovColumnHour { text-align:left;}
+.ovAirdatesRow .ovColumnDate, .ovAirdatesRow .ovColumnHour { background-color:transparent;}
+.ovColumnHour {
+    padding-top: 0 !important;
+}
+.ovColumnDate {
+    padding-bottom: 0px !important;
 }
