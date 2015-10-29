@@ -1,10 +1,11 @@
 /* --------------------------------------------------------
 Template: passport custom
 
-last modified: 2015/07/30 3:21pm
+last modified: 2015/10/29
 author: Jeanine Schoessler
 email: jeanine@montana.edu
 website: http://www.montanapbs.org
+repo: https://github.com/virtual/MTPBS-Passport-Theme
 ----------------------------------------------------------*/
 @charset "utf-8";
 @import "http://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans:400,700";
@@ -130,31 +131,6 @@ background:#222 url(http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/f
 
 
 
-/* CUSTOM SHOW THEME */
-/* ====== theme_11thGrantwithEricFunk ======= */
-body.explorer.passport.theme_11thGrantwithEricFunk { background: #01111e url('http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/pressroom/11thGrantwithEricFunk/web/EGNT%20Background.jpg') center 120px no-repeat;}
-.explorer.passport.theme_11thGrantwithEricFunk header { background-color: #01111e;background-image: none;  } 
-.explorer.passport.theme_11thGrantwithEricFunk .header-action-bar .donate-btn {
-background: #bf2802 url('http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/backgrounds/RedDonateButton-notext.jpg') repeat top center;}
-.explorer.passport.theme_11thGrantwithEricFunk .page-content a {color: #012f6d;}  
-.explorer.passport.theme_11thGrantwithEricFunk .page-content a:hover { color:#000}
-
-.explorer.passport.theme_11thGrantwithEricFunk .main-menu .active, 
-.explorer.passport.theme_11thGrantwithEricFunk .main-menu li:hover, 
-.explorer.passport.theme_11thGrantwithEricFunk .main-menu li.open, 
-.explorer.passport.theme_11thGrantwithEricFunk .main-menu li:hover ul li a:hover {
-background-color: #012f6d !important;}
-.explorer.passport.theme_11thGrantwithEricFunk .right-rail .button.programbutton{background:#4b5767; }
-
-.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h1, 
-.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h1 a, 
-.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h2, 
-.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h2 a  { color:#012f6d;}
-
-.explorer.passport.theme_11thGrantwithEricFunk .right-rail .text-plugin h2, 
-.explorer.passport.theme_11thGrantwithEricFunk .right-rail .text-plugin h2 a { color:#fff;}
-/* end 11th */
-
 
 
 
@@ -216,6 +192,10 @@ border-top: 0;
 .scheduleControls, #scheduleV, #schedListView { display:none;}
 */
 
+::-moz-selection {
+  background: #635262;color:#fff;  /* WebKit/Blink Browsers */
+}
+
 ::selection {
   background: #635262;color:#fff;  /* WebKit/Blink Browsers */
 }
@@ -233,7 +213,7 @@ border-top: 0;
 .cms-blogger .blog-header #blog-tagline * { color:#eee !important; }
 .cms-blogger .blog-header #blog-banding-image { min-height:80px;}
 
-.dropdown-menu .active>a, .dropdown-menu .active>a:hover { background-color:inherit; background-image:none;}
+.dropdown-menu .active>a, .dropdown-menu .active>a:hover, .dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a { background-color:inherit; background-image:none;}
 .explorer.passport header div.main-menu .navbar li .dropdown-menu li.active a {
   color: #eee;
   border-top: 0;
@@ -279,3 +259,66 @@ div#currentDate { background-color: #541357 !important; background: #541357 !imp
 .ovColumnDate {
     padding-bottom: 0px !important;
 }
+
+
+
+
+
+
+/* CUSTOM SHOW THEME */
+/* ====== theme_11thGrantwithEricFunk ======= */
+body.explorer.passport.theme_11thGrantwithEricFunk, body.explorer.passport.theme_11thGrantwithEricFunk .fake-bg { background: #01111e url('http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/pressroom/11thGrantwithEricFunk/web/EGNT%20Background.jpg') center 120px no-repeat; background-size:contain;}
+.explorer.passport.theme_11thGrantwithEricFunk header { background-color: #01111e;background-image: none;  } 
+.explorer.passport.theme_11thGrantwithEricFunk .header-action-bar .donate-btn {
+background: #bf2802 url('http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/structure/backgrounds/RedDonateButton-notext.jpg') repeat top center;}
+.explorer.passport.theme_11thGrantwithEricFunk .page-content a {color: #012f6d;}  
+.explorer.passport.theme_11thGrantwithEricFunk .page-content a:hover { color:#000}
+
+.explorer.passport.theme_11thGrantwithEricFunk .main-menu .active, 
+.explorer.passport.theme_11thGrantwithEricFunk .main-menu li:hover, 
+.explorer.passport.theme_11thGrantwithEricFunk .main-menu li.open, 
+.explorer.passport.theme_11thGrantwithEricFunk .main-menu li:hover ul li a:hover {
+background-color: #012f6d !important;}
+.explorer.passport.theme_11thGrantwithEricFunk .right-rail .button.programbutton{background:#4b5767; }
+
+.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h1, 
+.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h1 a, 
+.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h2, 
+.explorer.passport.theme_11thGrantwithEricFunk .text-plugin h2 a  { color:#012f6d;}
+
+.explorer.passport.theme_11thGrantwithEricFunk .right-rail .text-plugin h2, 
+.explorer.passport.theme_11thGrantwithEricFunk .right-rail .text-plugin h2 a { color:#fff;}
+/* end 11th */
+
+
+ 
+
+/* ====== theme_ViolinAlone ======= */
+body.explorer.passport.theme_ViolinAlone,  body.explorer.passport.theme_ViolinAlone .fake-bg { background: #fbf8ec url('http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/images2/pressroom/ViolinAlone/web/VLH_Web%20Background.jpg') center 120px no-repeat; background-size:contain;}
+.explorer.passport.theme_ViolinAlone header { background-color: #1f1f1f;background-image: none;  } 
+.explorer.passport.theme_ViolinAlone .header-action-bar .donate-btn {
+background: #4b5767 !important;     }
+.explorer.passport.theme_ViolinAlone .header-action-bar .donate-btn:hover { background-color:#59677a !important;}
+.explorer.passport.theme_ViolinAlone .page-content a {color: #012f6d;}  
+.explorer.passport.theme_ViolinAlone .page-content a:hover { color:#000}
+
+.explorer.passport.theme_ViolinAlone .main-menu .active, 
+.explorer.passport.theme_ViolinAlone .main-menu li:hover, 
+.explorer.passport.theme_ViolinAlone .main-menu li.open, 
+.explorer.passport.theme_ViolinAlone .main-menu li:hover ul li a:hover {
+background-color: #012f6d !important;}
+.explorer.passport.theme_ViolinAlone .right-rail .button.programbutton{background:#4b5767; }
+
+.explorer.passport.theme_ViolinAlone .text-plugin h1, 
+.explorer.passport.theme_ViolinAlone .text-plugin h1 a, 
+.explorer.passport.theme_ViolinAlone .text-plugin h2, 
+.explorer.passport.theme_ViolinAlone .text-plugin h2 a  { color:#012f6d;}
+
+.explorer.passport.theme_ViolinAlone .right-rail .text-plugin h2, 
+.explorer.passport.theme_ViolinAlone .right-rail .text-plugin h2 a { color:#fff;}
+.explorer.passport.theme_ViolinAlone .right-rail .filer_image_container { margin-left:0 !important; margin-right:10px; }
+.explorer.passport.theme_ViolinAlone .right-rail .filer_image_container img.filer_image {
+    margin-top: 7px;
+}
+
+/* end theme_ViolinAlone */
